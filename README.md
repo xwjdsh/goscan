@@ -22,9 +22,7 @@
 
 ```sh
 # install dependencies
-$ go get github.com/Sirupsen/logrus
-$ go get github.com/timest/gomanuf
-$ go get github.com/google/gopacket
+$ go mod tidy
 
 # build
 $ go build
